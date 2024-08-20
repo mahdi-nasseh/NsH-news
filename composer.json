@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Nshnews\\": "Core/"
+        }
+    },
+    "require": {
+        "illuminate/database": "*"
+    },
+
+    "config": {
+        "php.ini-scan-dir": "/path/to/your/custom/php.ini"
+    }
+}
